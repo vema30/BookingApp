@@ -8,7 +8,7 @@
  app.use(express.json());
  app.use(cors());
  app.use("/api/v1",userRoute);
- //hello 
+
  
  app.listen(3001,(req,res)=>{
     console.log("server is runnign");
